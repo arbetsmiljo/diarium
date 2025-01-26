@@ -1,0 +1,29 @@
+{
+  "bin": {
+    "node": "./bin.js"
+  },
+  "dependencies": {
+    "commander": "^13.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "tsx": "^4.19.2",
+    "typedoc": "^0.27.6",
+    "typescript": "^5"
+  },
+  "files": [
+    "bin.js",
+    "version.js"
+  ],
+  "name": "@arbetsmarknad/node",
+  "scripts": {
+    "build": "tsc",
+    "node": "tsx ./bin.ts"
+  },
+  "typedocOptions": {
+    "entryPoints": [
+      "./version.ts"
+    ]
+  },
+  "version": "0.0.0"
+}
