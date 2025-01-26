@@ -1,7 +1,7 @@
-# node
+# diarium
 
-Node starter project.
+Web scraper tooling for work environment data.
 
 ## License
 
-[MIT](https://github.com/arbetsmarknad/node/blob/main/license)
+[MIT](https://github.com/arbetsmiljo/diarium/blob/main/license)
