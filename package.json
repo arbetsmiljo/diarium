@@ -50,5 +50,6 @@
       "./document.ts"
     ]
   },
-  "version": "0.0.3"
+  "types": ".",
+  "version": "0.0.4"
 }
