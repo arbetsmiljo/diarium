@@ -1,6 +1,6 @@
 # diarium
 
-Web scraper tooling for work environment data.
+SQLite & web scraper tooling for work environment data
 
 ## License
 
