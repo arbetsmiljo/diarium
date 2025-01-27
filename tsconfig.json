@@ -7,11 +7,15 @@
     "isolatedModules": true,
     "module": "esnext",
     "moduleResolution": "node",
+    "outDir": "./dist",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "ES2024"
+    "target": "ESNext"
   },
   "exclude": ["node_modules"],
-  "include": ["*.ts"]
+  "include": ["./src/**/*.ts"]
 }
