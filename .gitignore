@@ -46,3 +46,6 @@ next-env.d.ts
 
 # TypeDoc
 /docs/
+
+# SQLite databases
+*.sqlite
