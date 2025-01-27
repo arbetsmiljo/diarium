@@ -53,8 +53,8 @@
   "type": "module",
   "typedocOptions": {
     "entryPoints": [
-      "./src/document.ts",
-      "./src/schema.ts"
+      "./src/database.ts",
+      "./src/document.ts"
     ]
   },
   "types": "./dist/index.d.ts",
