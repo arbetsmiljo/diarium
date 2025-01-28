@@ -4,10 +4,10 @@
   },
   "dependencies": {
     "commander": "^13.1.0",
+    "cross-fetch": "^4.1.0",
     "jsdom": "^26.0.0",
     "lodash": "^4.17.21",
-    "node-fetch": "^3.3.2",
-    "ora": "^8.1.1",
+    "ora-classic": "^5.4.2",
     "sqlite3": "^5.1.7",
     "zod": "^3.24.1"
   },
@@ -51,7 +51,6 @@
     "diarium": "tsx ./src/bin.ts",
     "test": "jest"
   },
-  "type": "module",
   "typedocOptions": {
     "entryPoints": [
       "./src/database.ts",
@@ -61,5 +60,5 @@
     ]
   },
   "types": "./dist/index.d.ts",
-  "version": "0.0.7"
+  "version": "0.0.8"
 }
