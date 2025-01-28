@@ -28,9 +28,9 @@
     "./*": "./dist/*"
   },
   "files": [
-    "dist/bin.js",
-    "dist/document.js",
-    "dist/document.d.ts"
+    "dist/*.js",
+    "dist/*.cjs",
+    "dist/*.d.ts"
   ],
   "jest": {
     "testEnvironment": "node",
@@ -61,5 +61,5 @@
     ]
   },
   "types": "./dist/index.d.ts",
-  "version": "0.0.4"
+  "version": "0.0.5"
 }
