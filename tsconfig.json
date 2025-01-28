@@ -8,9 +8,6 @@
     "module": "esnext",
     "moduleResolution": "node",
     "outDir": "./dist",
-    "paths": {
-      "@/*": ["./src/*"]
-    },
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
