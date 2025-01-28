@@ -54,7 +54,8 @@
   "typedocOptions": {
     "entryPoints": [
       "./src/database.ts",
-      "./src/document.ts"
+      "./src/document.ts",
+      "./src/pagination.ts"
     ]
   },
   "types": "./dist/index.d.ts",
