@@ -56,6 +56,7 @@
     "entryPoints": [
       "./src/database.ts",
       "./src/document.ts",
+      "./src/ingestion.ts",
       "./src/pagination.ts"
     ]
   },
