@@ -54,10 +54,16 @@
   },
   "typedocOptions": {
     "entryPoints": [
+      "./src/case.ts",
+      "./src/company.ts",
+      "./src/county.ts",
       "./src/database.ts",
       "./src/document.ts",
       "./src/ingestion.ts",
-      "./src/pagination.ts"
+      "./src/municipality.ts",
+      "./src/pagination.ts",
+      "./src/time.ts",
+      "./src/workplace.ts"
     ]
   },
   "types": "./dist/index.d.ts",
