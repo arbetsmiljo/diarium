@@ -5,6 +5,7 @@
   "dependencies": {
     "commander": "^13.1.0",
     "cross-fetch": "^4.1.0",
+    "date-fns": "^4.1.0",
     "jsdom": "^26.0.0",
     "lodash": "^4.17.21",
     "ora-classic": "^5.4.2",
@@ -60,5 +61,5 @@
     ]
   },
   "types": "./dist/index.d.ts",
-  "version": "0.0.16"
+  "version": "0.0.17"
 }
