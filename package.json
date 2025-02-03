@@ -3,17 +3,19 @@
     "diarium": "./dist/bin.js"
   },
   "dependencies": {
+    "better-sqlite3": "^11.8.1",
     "commander": "^13.1.0",
     "cross-fetch": "^4.1.0",
     "date-fns": "^4.1.0",
     "jsdom": "^26.0.0",
+    "kysely": "^0.27.5",
     "lodash": "^4.17.21",
     "ora-classic": "^5.4.2",
-    "sqlite3": "^5.1.7",
     "zod": "^3.24.1"
   },
   "description": "SQLite & web scraper tooling for work environment data",
   "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
     "@types/jest": "^29.5.14",
     "@types/jsdom": "^21.1.7",
     "@types/lodash": "^4.17.14",
@@ -46,6 +48,11 @@
     ]
   },
   "name": "@arbetsmiljo/diarium",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3"
+    ]
+  },
   "scripts": {
     "build": "tsc",
     "clean": "rm -f *.js; rm -f *.d.ts; rm -rf dist",
