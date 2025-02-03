@@ -28,7 +28,8 @@
     "typescript": "^5.7.3"
   },
   "exports": {
-    "./*": "./dist/*"
+    "node": "./dist/index.js",
+    "types": "./dist/index.d.ts"
   },
   "files": [
     "dist/*.js",
@@ -73,6 +74,7 @@
       "./src/workplace.ts"
     ]
   },
+  "type": "module",
   "types": "./dist/index.d.ts",
-  "version": "0.0.19"
+  "version": "0.0.20"
 }
