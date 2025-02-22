@@ -19,4 +19,4 @@ SQLite & web scraper tooling for work environment data
 
 ## License
 
-[MIT](https://github.com/arbetsmiljo/diarium/blob/main/license)
+[CC-0](https://codeberg.org/arbetsmiljo/diarium/src/branch/main/license)
