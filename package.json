@@ -50,7 +50,7 @@
       "/node_modules/(?!node-fetch)"
     ]
   },
-  "homepage": "https://codeberg.org/arbetsmiljo/diarium",
+  "homepage": "https://github.com/arbetsmiljo/diarium",
   "license": "CC0-1.0",
   "name": "@arbetsmiljo/diarium",
   "pnpm": {
