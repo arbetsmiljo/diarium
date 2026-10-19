@@ -2,7 +2,7 @@
 
 SQLite & web scraper tooling for work environment data in Arbetsmiljöverket's diarium.
 
-All filesystem lookups in this repo assume a runtime context matching the structure defined in the README of [arbetsmarknad/workspace](https://github.com/arbetsmarknad/workspace).
+All filesystem lookups in this repo assume a runtime context matching the structure defined in the README of [svenskamodellen/workspace](https://github.com/svenskamodellen/workspace).
 
 ## Commands
 
