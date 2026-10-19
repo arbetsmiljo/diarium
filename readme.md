@@ -1,6 +1,12 @@
-# diarium
+# arbetsmiljo-diarium
 
-SQLite & web scraper tooling for work environment data
+SQLite & web scraper tooling for work environment data in Arbetsmiljöverket's diarium.
+
+All filesystem lookups in this repo assume a runtime context matching the structure defined in the README of [arbetsmarknad/workspace](https://github.com/arbetsmarknad/workspace).
+
+## Commands
+
+- Run `YEAR=2023 pnpm ingest` to run an incremental update of the 2023 dataset
 
 ## Modules
 
@@ -19,4 +25,4 @@ SQLite & web scraper tooling for work environment data
 
 ## License
 
-[CC-0](https://codeberg.org/arbetsmiljo/diarium/src/branch/main/license)
+[CC-0](https://github.com/arbetsmiljo/diarium/blob/main/license)

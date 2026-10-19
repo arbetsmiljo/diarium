@@ -1,5 +1,5 @@
 {
-  "author": "Henry Catalini Smith <henry@catalinismith.com>",
+  "author": "Henry Catalini Smith <henry@catalinismith.se>",
   "bin": {
     "diarium": "./dist/bin.js"
   },
@@ -62,6 +62,7 @@
     "build": "tsc",
     "clean": "rm -f *.js; rm -f *.d.ts; rm -rf dist",
     "diarium": "tsx ./src/bin.ts",
+    "ingest": "pnpm diarium ingest -f ../arbetsmiljo-$YEAR/db.sqlite -m 100 $YEAR",
     "test": "jest"
   },
   "typedocOptions": {
